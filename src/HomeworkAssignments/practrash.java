@@ -1,57 +1,33 @@
 package HomeworkAssignments;
 
-import java.util.Scanner;
-
 public class practrash {
-	
+
 	public static void main(String[] args) {
-		
-//	Create an int array with the size of 5 and input values with Scanner.  Print out each element of the array multiplied by ten, one element per line. Create a loop and enter values into one loop, the second loop print the values and it must be multiplied by 10.
 
+//Two ways to create data types such as String, int, char: literal
+//String str="hello";
+//String str1="345";
+//String str2="#$%FG$#T";
+//
+//String by new keyword
+//
+//String myString = new String("Hello");
 
-//Input:
-//1
-//2
-//3
-//4
-//5
-//		
-//Output
-//10
-//20
-//30
-//40
-//50	
 		
-		Scanner scan;
-		scan = new Scanner (System.in);
-
-		int[] integers = new int[5];
-
-		for(int i=0; i<5; i++){
-		  integers[i] = scan.nextInt();
-		  }
-		  for(int a=0; a<integers.length; a++){
-		    System.out.println(integers[a]*10);
-		  }
-		  
-		}}
+//Note: Create main Method
+//		For you to do:
+//			Create a String named "name" and assign the value "Timmy" to it
+//			Find out how many characters are there in the given String
 		
+		String name = "Timmy";
 		
+		System.out.print(name.length());
 		
-	
-	
-	
 
 	
-		
+		}
 	
-			
+		}
 	
-		
-		
-		
 	
-		
-		
-		
+	
